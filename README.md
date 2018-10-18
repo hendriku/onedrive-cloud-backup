@@ -32,7 +32,7 @@ To get the synchronization to work you will need ondrive to authorize you (see p
 
 ## Usage
 
-Now you will have a new user and a directory `/recovery` where backups and logs will be stored.
+Now you will have a new user *recovery* and a directory `/recovery` where backups and logs will be stored.
 It also contains the script `cron.sh` which is responsible for synchronization.
 
 ### Modify the cronjob
