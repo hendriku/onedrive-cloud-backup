@@ -51,7 +51,13 @@ Login as the recovery user.
 su recovery
 ```
 
-You can start the backup progress manually in background.
+If you are **not** authorized you will have to execute the backup script in foreground.
+
+```
+/recovery/cron.sh
+```
+
+If you are authorized you can start the backup progress manually in background.
 
 ```
 nohup /recovery/cron.sh &
