@@ -1,4 +1,6 @@
 #!/bin/bash
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+
 BACKUP_DIR=/recovery/backups
 LOG_DIR=/recovery/logs
 TARGET="backup`date +%Y-%m-%d_%H-%M-%S`"
